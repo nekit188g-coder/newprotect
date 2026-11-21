@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "nameprotect",
+  "version": "${version}",
+  "name": "NameProtect",
+  "description": "Візуально замінює ваш нікнейм на PULSE - DODGE 10%.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["nameprotect.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
